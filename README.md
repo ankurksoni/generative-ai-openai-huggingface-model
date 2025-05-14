@@ -187,7 +187,9 @@ npm install
 ```
 
 ### 2. Environment Variables
-Create a `.env` file with your API keys:
+**You must manually create a `.env` file in the project root and add the relevant API keys. This file is not provided by default.**
+
+Example:
 ```
 OPENAI_API_KEY=sk-...
 HF_TOKEN=hf_...
